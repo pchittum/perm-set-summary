@@ -1,0 +1,33 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**
+
+# Build Meta Ignore
+Admin.profile
+Custom%3A Marketing Profile.profile
+Custom%3A Sales Profile.profile
+Custom%3A Support Profile.profile
+**profile
+test_object__c-test object Layout.layout
+test_object__c.object
+test_object__c.tab
+test_text_field_1__c.field
+test_text_field_2__c.field
+test_number_field__c.field
+test_checkbox_field__c.field
+**field
+Test_Simple_Permset.permissionset
+Test_Object_Permset.permissionset
+Test_Composite_Permset.permissionset
+Test_App.app
+Test_App_UtilityBar.flexipage
+AppSwitcher.appMenu
